@@ -29,6 +29,12 @@ Node.js, Python, FFmpeg, yt-dlp는 포함되어 있습니다.
 
 1.2.3부터 영상 분석 작업 기록도 PC 내부에 저장합니다. n8n이나 Google Sheets 연결 없이 기록 저장·검색·불러오기가 가능합니다.
 
+## 템플릿과 글꼴 (1.2.4)
+
+**썰형**은 기존 커뮤니티 글 형태, **일반 (리뷰형)**은 전체 영상 위 제목·자막 형태입니다. 설정 전환과 저장 후 다시 불러오기에도 구분이 유지됩니다.
+
+[Google Fonts](https://fonts.google.com/?subset=korean)의 한글 지원 38종을 설치본에 포함했습니다. 추가 다운로드 없이 제목·채널명·자막에서 선택할 수 있습니다. 각 글꼴의 원본 OFL 라이선스와 출처는 설치 폴더의 `frontend/dist/fonts/licenses` 및 `catalog.json`에 있습니다.
+
 현재 설치 파일에는 Windows Authenticode 코드 서명이 적용되어 있지 않아 SmartScreen 경고가 표시될 수 있습니다.
 
 이 저장소는 개발용 소스와 개인 계정 정보를 보관하지 않습니다. 설치본에는 앱 실행에 필요한 JavaScript 및 외부 런타임이 포함됩니다.
