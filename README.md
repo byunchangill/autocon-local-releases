@@ -27,6 +27,8 @@ Node.js, Python, FFmpeg, yt-dlp는 포함되어 있습니다.
 
 설정과 작업 데이터는 `%LOCALAPPDATA%\AutoConLocal\data`에 보관되며 업데이트와 프로그램 제거 후에도 유지됩니다.
 
+1.2.3부터 영상 분석 작업 기록도 PC 내부에 저장합니다. n8n이나 Google Sheets 연결 없이 기록 저장·검색·불러오기가 가능합니다.
+
 현재 설치 파일에는 Windows Authenticode 코드 서명이 적용되어 있지 않아 SmartScreen 경고가 표시될 수 있습니다.
 
 이 저장소는 개발용 소스와 개인 계정 정보를 보관하지 않습니다. 설치본에는 앱 실행에 필요한 JavaScript 및 외부 런타임이 포함됩니다.
